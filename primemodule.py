@@ -10,6 +10,7 @@ def is_prime():
     else: 
         print("Iuput a value greater than 1")
 
+
 def print_primes():
     import random
     test = random.randint(0,80)
@@ -20,6 +21,7 @@ def print_primes():
                 continue
             else: 
                 print(n, end=" ")
+
 
 def get_primes(): 
     import random
