@@ -2,13 +2,11 @@ def is_prime():
     import random
     n = random.randint(0,90)
 
-    if n > 1:
+    if n >= 1:
         if n % 2 == 0:
-            print("False")
+            return False
         else: 
-            print("True")
-    else: 
-        print("Iuput a value greater than 1")
+            return True
 
 
 def print_primes():
@@ -20,7 +18,7 @@ def print_primes():
             if  n % 2 == 0:
                 continue
             else: 
-                print(n, end=" ")
+                return n
 
 
 def get_primes(): 
